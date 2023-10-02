@@ -1,0 +1,85 @@
+1907016lsstdioGT
+1907016lsstringGT
+1907016lsmathGT
+1907016lsstdlibGT
+
+integerf function()
+START
+	integerf f#abc? comma f#k? sm
+	floatf f#cd? sm
+	integerf f#a? comma integerf f#b? sm 
+	floatf f#sum? sm 
+	integerf f#number? sm
+
+	f#abc? =f 10 sm
+	System.outf( "f#abc? = 10" f) sm
+	f#cd? =f 36 sm
+
+	System.inf( "Enter the question: " f) sm
+
+	1 jog 12 vag 4 gun 3 sm
+	System.outf("9"f) sm
+
+	20 biyog 5 jog 10 vag 5 sm
+	System.outf("5"f) sm
+
+	tanff(30 degree = 0.5f) sm
+	5 factorial = 125
+
+	iff f( 10 ls 16 f)
+	START
+		System.outf( "10+16 = 26" f) sm
+	END
+
+	elif f( 10 GT 5 f)
+	START
+		System.outf( "10-5 = 5" f) sm
+	END
+
+	otherwise
+	START
+		System.outf( "logff(0f)=undefined" f) sm
+	END
+
+
+	jonno f( f#k? =f 1 sm f#k? ls 10 sm f#k? inc f)
+	START
+		System.inf( " "%d %d"comma &f#a? comma &f#b?" f) sm
+		f#sum? =f f#a? jog f#b? sm
+		System.outf(" "%d" comma f#sum? " f) sm
+	END
+
+	switchf f(f#number?f) START
+	case_f 10 colon
+	System.outf( "f#number? is equal to 10" f) sm
+	smash sm
+	case_f 50 colon
+	System.outf( "f#number? is equal to 50" f) sm
+	smash sm
+	timeless colon
+	System.outf( "f#number? is not equal to 10 or 50" f) sm
+	END
+
+
+	integerf f#funcforsum? f( integerf f#x? comma integerf f#y? f) START
+	integer f#z? sm
+	f#z? =f f#x? jog f#y? sm
+	rtn f(f#z?f) sm
+	END
+
+	
+	integerf f#i? =f 1 sm
+	during f( f#i? lseq 10 f)
+	START
+		System.outf("%d" comma f#i?) sm
+		f#i?inc sm
+ 	END
+	
+
+rtn 0 sm
+END
+
+
+	
+
+	

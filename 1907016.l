@@ -36,7 +36,7 @@ logical_operator        "&&"|"||"|"!!!"
 
 "plusequal"					{printf("+="); }
 
-"minusequal					{printf("-=");}
+"minusequal"					{printf("-=");}
 
 "mulequal"					{printf("Assignment operator *= in c\n");}
 
@@ -163,6 +163,12 @@ logical_operator        "&&"|"||"|"!!!"
 
 
 
+int yywrap(){}
+int main(){
+  yyin =freopen("input.txt","r",stdin);
+  yyout =freopen("output.txt","w",stdout); 
+  yylex();
+}
 
 
 

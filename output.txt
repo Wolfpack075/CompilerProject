@@ -1,0 +1,86 @@
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+#include<stdlib.h>
+
+int main()
+
+{
+	int abc , k ;
+	float cd ;
+	int a , int b ; 
+	float sum ; 
+	int number ;
+
+	abc = 10 ;
+	printf( "abc = 10" ) ;
+	cd = 36 ;
+
+	scanf( "Enter the question: " ) ;
+
+	1 + 12 / 4 * 3 ;
+	printf("9") ;
+
+	20 - 5 + 10 / 5 ;
+	printf("5") ;
+
+	tan(30 degree = 0.5) ;
+	5 ! = 125
+
+	if ( 10 < 16 )
+	{
+		printf( "10+16 = 26" ) ;
+	}
+
+	else if ( 10 > 5 )
+	{
+		printf( "10-5 = 5" ) ;
+	}
+
+	else
+	{
+		printf( "log(0)=undefined" ) ;
+	}
+
+
+	for ( k = 1 ; k < 10 ; k ++ )
+	{
+		scanf( " "%d %d", &a , &b" ) ;
+		sum = a + b ;
+		printf(" "%d" , sum " ) ;
+	}
+
+	switch (number) {
+	case 10 :
+	printf( "number is equal to 10" ) ;
+	break ;
+	case 50 :
+	printf( "number is equal to 50" ) ;
+	break ;
+	default :
+	printf( "number is not equal to 10 or 50" ) ;
+	}
+
+
+	int funcforsum ( int x , int y ) {
+	integer z ;
+	z = x + y ;
+	return (z) ;
+	}
+
+	
+	int i = 1 ;
+	while ( i <= 10 )
+	{
+		printf("%d" , i) ;
+		i++ ;
+ 	}
+	
+
+return 0 ;
+}
+
+
+	
+
+	
