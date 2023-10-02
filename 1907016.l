@@ -1,5 +1,10 @@
 %{
-	    #include<stdio.h>
+	    
+		//	Bismillahir Rahmanir Rahim. 
+    	//	Every praise goes to ALLAH for our wellbeing.
+		//	Code : Kazi Fahim Tahmid
+		
+		#include<stdio.h>
 	    #include <string.h>
         #include<math.h>
 	    #include<stdlib.h>
