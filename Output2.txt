@@ -1,0 +1,814 @@
+Welcome To Kazi's lex tokenisation. Also hey The North Remembers! 
+---------------------------------------------------------------------- 
+
+input : import
+token/type : keyword
+
+
+input : stdio.h
+token/type : Header File
+
+
+input : \n
+token/type : end of statement
+
+
+input : import
+token/type : keyword
+
+
+input : stdlib.h
+token/type : Header File
+
+
+input : \n
+token/type : end of statement
+
+
+input : import
+token/type : keyword
+
+
+input : math.h
+token/type : Header File
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : binary
+token/type : datatype
+
+
+input : c
+token/type : identifier
+
+
+input : ,
+token/type : comma operator
+
+
+input : d
+token/type : identifier
+
+
+input : \n
+token/type : end of statement
+
+
+input : integer
+token/type : datatype
+
+
+input : kazi
+token/type : identifier
+
+
+input : \n
+token/type : end of statement
+
+
+input : decimal
+token/type : datatype
+
+
+input : dec
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : 16.0e-16
+token/type : decimal
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : string
+token/type : datatype
+
+
+input : hudai1
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : "Ami bhaat khai"
+token/type : string
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : for a in range
+token/type : for loop
+
+
+input : (
+token/type : left paranthesis
+
+
+input : 5
+token/type : integer
+
+
+input : ,
+token/type : comma operator
+
+
+input : 10
+token/type : integer
+
+
+input : )
+token/type : right parenthesis
+
+
+input : {
+token/type : left curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : System.outf
+token/type : keyword
+
+
+input : (
+token/type : left paranthesis
+
+
+input : a
+token/type : identifier
+
+
+input : )
+token/type : right parenthesis
+
+
+input : \n
+token/type : end of statement
+
+
+input : }
+token/type : right curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : while
+token/type : while loop
+
+
+input : (
+token/type : left paranthesis
+
+
+input : true
+token/type : binary
+
+
+input : )
+token/type : right parenthesis
+
+
+input : {
+token/type : left curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : while
+token/type : while loop
+
+
+input : (
+token/type : left paranthesis
+
+
+input : 2
+token/type : integer
+
+
+input : is not
+token/type : comparison operator
+
+
+input : 10
+token/type : integer
+
+
+input : )
+token/type : right parenthesis
+
+
+input : {
+token/type : left curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : System.outf
+token/type : keyword
+
+
+input : (
+token/type : left paranthesis
+
+
+input : "hudai nested loop banalam"
+token/type : string
+
+
+input : )
+token/type : right parenthesis
+
+
+input : \n
+token/type : end of statement
+
+
+input : }
+token/type : right curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : }
+token/type : right curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : System.inf
+token/type : keyword
+
+
+input : (
+token/type : left paranthesis
+
+
+input : n1
+token/type : identifier
+
+
+input : ,
+token/type : comma operator
+
+
+input : n2
+token/type : identifier
+
+
+input : )
+token/type : right parenthesis
+
+
+input : \n
+token/type : end of statement
+
+
+input : integer
+token/type : datatype
+
+
+input : hcf
+token/type : identifier
+
+
+input : \n
+token/type : end of statement
+
+
+input : integer
+token/type : datatype
+
+
+input : taka
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : 40
+token/type : integer
+
+
+input : ;
+token/type : end of statement
+
+
+input : taka
+token/type : identifier
+
+
+input : ++
+token/type : indec_operator
+
+
+input : ;
+token/type : end of statement
+
+
+input : --
+token/type : indec_operator
+
+
+input : taka
+token/type : identifier
+
+
+input : ;
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : integer
+token/type : datatype
+
+
+input : komla
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : 50
+token/type : integer
+
+
+input : \n
+token/type : end of statement
+
+
+input : if
+token/type : if condition
+
+
+input : (
+token/type : left paranthesis
+
+
+input : taka
+token/type : identifier
+
+
+input : is
+token/type : comparison operator
+
+
+input : 40
+token/type : integer
+
+
+input : )
+token/type : right parenthesis
+
+
+input : {
+token/type : left curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : System.outf
+token/type : keyword
+
+
+input : (
+token/type : left paranthesis
+
+
+input : "Amar kache 40tk ache."
+token/type : string
+
+
+input : )
+token/type : right parenthesis
+
+
+input : \n
+token/type : end of statement
+
+
+input : if
+token/type : if condition
+
+
+input : (
+token/type : left paranthesis
+
+
+input : komla
+token/type : identifier
+
+
+input : is
+token/type : comparison operator
+
+
+input : 50
+token/type : integer
+
+
+input : )
+token/type : right parenthesis
+
+
+input : {
+token/type : left curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : System.outf
+token/type : keyword
+
+
+input : (
+token/type : left paranthesis
+
+
+input : "Hudai nesting kortesi to check balance_parenthesis"
+token/type : string
+
+
+input : )
+token/type : right parenthesis
+
+
+input : \n
+token/type : end of statement
+
+
+input : // printing out gcd of n1 and n2
+token/type : singleline comment
+
+
+input : \n
+token/type : end of statement
+
+
+input : if
+token/type : if condition
+
+
+input : (
+token/type : left paranthesis
+
+
+input : n2
+token/type : identifier
+
+
+input : >
+token/type : comparison operator
+
+
+input : n1
+token/type : identifier
+
+
+input : )
+token/type : right parenthesis
+
+
+input : {
+token/type : left curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : integer
+token/type : datatype
+
+
+input : temp
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : n2
+token/type : identifier
+
+
+input : \n
+token/type : end of statement
+
+
+input : n2
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : n1
+token/type : identifier
+
+
+input : \n
+token/type : end of statement
+
+
+input : n1
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : temp
+token/type : identifier
+
+
+input : \n
+token/type : end of statement
+
+
+input : }
+token/type : right curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : for
+token/type : identifier
+
+
+input : (
+token/type : left paranthesis
+
+
+input : integer
+token/type : datatype
+
+
+input : i
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : 0
+token/type : integer
+
+
+input : ;
+token/type : end of statement
+
+
+input : i
+token/type : identifier
+
+
+input : <=
+token/type : comparison operator
+
+
+input : n2
+token/type : identifier
+
+
+input : ;
+token/type : end of statement
+
+
+input : ++
+token/type : indec_operator
+
+
+input : i
+token/type : identifier
+
+
+input : )
+token/type : right parenthesis
+
+
+input : {
+token/type : left curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : if
+token/type : if condition
+
+
+input : (
+token/type : left paranthesis
+
+
+input : n1
+token/type : identifier
+
+
+input : %
+token/type : math_op
+
+
+input : i
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : =
+token/type : assignment operator
+
+
+input : 0
+token/type : integer
+
+
+input : &&
+token/type : logical_operator
+
+
+input : n2
+token/type : identifier
+
+
+input : %
+token/type : math_op
+
+
+input : i
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : =
+token/type : assignment operator
+
+
+input : 0
+token/type : integer
+
+
+input : )
+token/type : right parenthesis
+
+
+input : {
+token/type : left curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : hcf
+token/type : identifier
+
+
+input : =
+token/type : assignment operator
+
+
+input : i
+token/type : identifier
+
+
+input : \n
+token/type : end of statement
+
+
+input : }
+token/type : right curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : }
+token/type : right curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : }
+token/type : right curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : }
+token/type : right curly bracket
+
+
+input : \n
+token/type : end of statement
+
+
+input : \n
+token/type : end of statement
+
+
+input : function gcd( n1 , n2 ) : integer
+token/type : subroutine
+
+
+input : {
+token/type : left curly bracket
+
+
+input : }
+token/type : right curly bracket
+
+
+okay! all brackets are balanced
+okay! all blocks are balanced
+Maximum Nested Layer Depth of my program is : 4
+Total identifiers found: 34
+Total keywords found   : 18
+Total statements found: 50
+Total Lines found: 45
