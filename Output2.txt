@@ -1,4 +1,4 @@
-Welcome To Kazi's lex tokenisation. Also hey The North Remembers! 
+Welcome To Kazi's lex tokenization. Also hey The North Remembers! 
 ---------------------------------------------------------------------- 
 
 input : import

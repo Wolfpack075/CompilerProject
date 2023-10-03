@@ -323,7 +323,7 @@ int main()
     whiteSpaceRemover("input2.txt");
 	yyin = freopen("input2.txt", "r", stdin);
 	yyout = freopen("output2.txt", "w", stdout);
-	cout << "Welcome To Kazi's lex tokenisation. Also hey The North Remembers! \n---------------------------------------------------------------------- \n\n";
+	cout << "Welcome To Kazi's lex tokenization. Also hey The North Remembers! \n---------------------------------------------------------------------- \n\n";
 	yylex();
 
 	if (valid_bracket.empty()) {
