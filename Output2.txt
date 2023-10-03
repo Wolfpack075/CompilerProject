@@ -805,8 +805,8 @@ input : }
 token/type : right curly bracket
 
 
-okay! all brackets are balanced
-okay! all blocks are balanced
+All brackets are balanced
+All blocks are balanced
 Maximum Nested Layer Depth of my program is : 4
 Total identifiers found: 34
 Total keywords found   : 18

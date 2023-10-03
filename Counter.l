@@ -327,8 +327,8 @@ int main()
 	yylex();
 
 	if (valid_bracket.empty()) {
-		cout << "okay! all brackets are balanced\n";
-		cout << "okay! all blocks are balanced\n";
+		cout << "All brackets are balanced\n";
+		cout << "All blocks are balanced\n";
 		cout << "Maximum Nested Layer Depth of my program is : " << max_nested_layers << "\n";
 	}
 
