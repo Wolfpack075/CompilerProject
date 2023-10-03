@@ -45,7 +45,7 @@ identifier   		        [a-zA-Z_][a-zA-Z_0-9]{0,31}
 user_datatype   	        ("integer"|"decimal"|"char"|"string"|"binary")
 string     			        [\"].*[\"]
 integer    			        [\+\-]?[0-9]+
-decimal     			    ({integer}([\.]{integer})?(e[\+\-]?{integer})|{integer}([\.]{integer}))
+decimal     			    ({integer}([\.][0-9]+)?(e{integer})|{integer}([\.][0-9]+))
 binary     			        ("false"|"true")
 char  			            ("'\\n'"|[\'][^\n][\'])
 returntype			        ({user_datatype}|"void")
