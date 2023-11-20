@@ -1,0 +1,293 @@
+LEX 14 : import
+LEX 34: kazi
+LEX 59 : ,
+LEX 34: faija
+LEX 56 : ;
+LEX 30 : Class
+LEX 34: Kazi
+LEX 57 : {
+LEX 15 : var
+LEX 34: aa
+LEX 61 : =
+LEX 32: 10
+LEX 59 : ,
+LEX 34: cc
+LEX 61 : =
+LEX 31 : 10.01
+LEX 56 : ;
+LEX 58 : }
+LEX 56 : ;
+LEX 30 : Class
+LEX 34: Tasfia
+LEX 57 : {
+LEX 15 : var
+LEX 34: aax
+LEX 61 : =
+LEX 32: 10
+LEX 59 : ,
+LEX 34: ccx
+LEX 61 : =
+LEX 31 : 10.01
+LEX 56 : ;
+LEX 58 : }
+LEX 56 : ;
+LEX 15 : var
+LEX 34: xx
+LEX 60 : :
+LEX 18 : Int
+LEX 56 : ;
+LEX 1 : func
+LEX 34: add
+LEX 62 : (
+LEX 34: A
+LEX 60 : :
+LEX 18 : Int
+LEX 63 : )
+LEX 49 : ->
+LEX 18 : Int
+LEX 57 : {
+LEX 33 : $xx
+LEX 61 : =
+LEX 80 : "abc"
+LEX 59 : ,
+LEX 33 : $cc
+LEX 61 : =
+LEX 32: 10
+LEX 56 : ;
+LEX 15 : var
+LEX 34: a
+LEX 60 : :
+LEX 18 : Int
+LEX 59 : ,
+LEX 34: b
+LEX 61 : =
+LEX 32: 10
+LEX 59 : ,
+LEX 34: c
+LEX 60 : :
+LEX 64 : [
+LEX 18 : Int
+LEX 65 : ]
+LEX 59 : ,
+LEX 34: Dd
+LEX 60 : :
+LEX 64 : [
+LEX 64 : [
+LEX 64 : [
+LEX 18 : Int
+LEX 65 : ]
+LEX 65 : ]
+LEX 65 : ]
+LEX 72 : *
+LEX 62 : (
+LEX 32: 100
+LEX 63 : )
+LEX 56 : ;
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 10
+LEX 56 : ;
+LEX 33 : $a
+LEX 47 : ++
+LEX 56 : ;
+LEX 2 : print
+LEX 62 : (
+LEX 33 : $a
+LEX 63 : )
+LEX 56 : ;
+LEX 33 : $a
+LEX 41 : %=
+LEX 32: 19
+LEX 56 : ;
+LEX 2 : print
+LEX 62 : (
+LEX 33 : $a
+LEX 63 : )
+LEX 56 : ;
+LEX 33 : $a
+LEX 43 : ^=
+LEX 32: 9
+LEX 56 : ;
+LEX 2.1 : switch
+LEX 62 : (
+LEX 32: 1
+LEX 63 : )
+LEX 60 : :
+LEX 57 : {
+LEX 2.2 : case
+LEX 32: 2
+LEX 60 : :
+LEX 2 : print
+LEX 62 : (
+LEX 80 : "nice"
+LEX 63 : )
+LEX 56 : ;
+LEX 2.2 : case
+LEX 32: 1
+LEX 60 : :
+LEX 2 : print
+LEX 62 : (
+LEX 80 : "nice"
+LEX 63 : )
+LEX 56 : ;
+LEX 58 : }
+LEX 2 : print
+LEX 62 : (
+LEX 33 : $a
+LEX 63 : )
+LEX 56 : ;
+LEX 23 : if
+LEX 62 : (
+LEX 32: 9
+LEX 76 : >
+LEX 80 : "abc"
+LEX 63 : )
+LEX 57 : {
+LEX 23 : if
+LEX 62 : (
+LEX 32: 8
+LEX 76 : >
+LEX 32: 9
+LEX 63 : )
+LEX 57 : {
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 10
+LEX 56 : ;
+LEX 58 : }
+LEX 21 : else if
+LEX 62 : (
+LEX 32: 1
+LEX 76 : >
+LEX 32: 0
+LEX 63 : )
+LEX 57 : {
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 11
+LEX 56 : ;
+LEX 58 : }
+LEX 58 : }
+LEX 21 : else if
+LEX 62 : (
+LEX 32: 8
+LEX 75 : <
+LEX 32: 9
+LEX 63 : )
+LEX 57 : {
+LEX 23 : if
+LEX 62 : (
+LEX 31 : 9.001
+LEX 63 : )
+LEX 57 : {
+LEX 2 : print
+LEX 62 : (
+LEX 33 : $b
+LEX 63 : )
+LEX 56 : ;
+LEX 33 : $b
+LEX 47 : ++
+LEX 56 : ;
+LEX 2 : print
+LEX 62 : (
+LEX 33 : $b
+LEX 63 : )
+LEX 56 : ;
+LEX 58 : }
+LEX 58 : }
+LEX 22 : else
+LEX 57 : {
+LEX 33 : $c
+LEX 61 : =
+LEX 31 : 11.0
+LEX 56 : ;
+LEX 58 : }
+LEX 24 : for
+LEX 62 : (
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 10
+LEX 56 : ;
+LEX 32: 10
+LEX 75 : <
+LEX 32: 20
+LEX 56 : ;
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 10
+LEX 63 : )
+LEX 57 : {
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 10
+LEX 56 : ;
+LEX 24 : for
+LEX 62 : (
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 10
+LEX 56 : ;
+LEX 32: 10
+LEX 75 : <
+LEX 32: 20
+LEX 56 : ;
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 10
+LEX 63 : )
+LEX 57 : {
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 20
+LEX 56 : ;
+LEX 58 : }
+LEX 58 : }
+LEX 2 : print
+LEX 62 : (
+LEX 80 : "fahim"
+LEX 63 : )
+LEX 56 : ;
+LEX 58 : }
+LEX 1 : func
+LEX 34: sub
+LEX 62 : (
+LEX 34: A
+LEX 60 : :
+LEX 18 : Int
+LEX 63 : )
+LEX 49 : ->
+LEX 18 : Int
+LEX 57 : {
+LEX 81 : DO
+LEX 57 : {
+LEX 33 : $a
+LEX 61 : =
+LEX 32: 20
+LEX 56 : ;
+LEX 58 : }
+LEX 25 : while
+LEX 62 : (
+LEX 32: 2
+LEX 63 : )
+LEX 56 : ;
+LEX 58 : }
+LEX 1 : func
+LEX 34: main
+LEX 62 : (
+LEX 63 : )
+LEX 49 : ->
+LEX 19 : Double
+LEX 57 : {
+LEX 25 : while
+LEX 62 : (
+LEX 32: 3
+LEX 76 : >
+LEX 32: 0
+LEX 63 : )
+LEX 57 : {
+LEX 33 : $b
+LEX 61 : =
+LEX 32: 19
+LEX 56 : ;
+LEX 58 : }
+LEX 58 : }
