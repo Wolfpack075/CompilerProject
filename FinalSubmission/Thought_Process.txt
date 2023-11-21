@@ -1,0 +1,291 @@
+<<<<<<< HEAD
+=======
+function structure
+----------------------
+func name (var:type .. )->type 
+{
+    stmt
+    return type;
+}
+
+var structure
+------------------------
+var name:type
+var name=value
+------------------------
+var name:[type] //1d
+var name:[[type]] //2d
+------------------------
+class name{
+    var:type .. 
+    init()
+    {
+        stmt
+    }
+};
+/
+--------------------------
+type = Int,Double,String,classes,Array[Any]
+--------------------------
+type_class
+{
+    name,type,values,functions,properties
+}
+--------------------------
+if else if else c structure
+for/while c structure
+do while c structure
+--------------------------
+
+
+
+
+-------------------
+CFG:
+-------------------
+
+starthere   :            
+		| function starthere
+            	| declaration starthere
+            	| classgrammer starthere
+            	| importgrammer starthere
+            	;
+
+
+classgrammer    : CLASS NAME '{' statement '}' ';'
+		;
+
+
+function    :	FUNC NAME '(' fparameter ')' PTR_OP TYPE '{' statement '}'
+
+TYPE        :	INT
+		| DOUBLE
+		| STRING
+		| VOID
+		| NAME
+		;
+
+
+fparameter : 
+            | NAME ':' TYPE fsparameter
+            ;
+fsparameter :
+            | ',' NAME ':' TYPE fsparameter
+            | ',' NAME ':' TYPE
+            ;
+statement   :
+            | ifgrammer statement
+            | declaration statement
+            | forgrammer statement
+            | asgngrammer statement
+            | whilegrammer statement
+            | mathexpr statement
+            | dowhilegrameer statement
+            | returnstmt statement
+            | printgrammer statement
+            | switchgrammer statement
+            ;
+
+
+switchgrammer   :	SWITCH '(' expression ')' ':' '{' casegrammer '}'
+                ;
+
+
+casegrammer     :	CASE expression ':' statement casegrammer
+                | def_ault ':' statement
+		;
+
+
+mathexpr    :	expression ';'
+		;
+
+
+ifgrammer   :	IF '(' expression ')' '{' statement '}' elsifgrmr
+		;
+
+
+expression  :	NUM
+		| STR
+		| VARACCESS
+		| SIN
+		| ASIN
+		| COS
+		| ACOS
+		| TAN
+		| ATAN
+		| LOG
+		| LOG10
+		| POW
+		| LCM
+		| GCD
+		| expression '+' expression
+		| expression '-' expression
+		| expression '*' expression
+		| expression '/' expression
+		| expression LE_OP expression
+		| expression GE_OP expression
+		| expression '<' expression
+		| expression '>' expression
+		| expression EQ_OP expression
+		| expression NE_OP expression
+            	| '(' expression ')'
+		| | expression AND_OP expression
+            	| expression OR_OP expression
+		| expression "&" expression
+		| '!' expression
+		| '~' expression
+		| expression '^' expression
+		| expression '|' expression
+		;
+
+returnstmt  :	RETURN mathexpr
+		| return ';'
+		;
+
+
+declaration :	VAR varriables ';'
+		;
+
+varriables  :	varriable ',' varriables
+            	| varriable
+            	;
+
+varriable   :	NAME ':' TYPE
+		| NAME '=' expression
+		| NAME ':' arraydim '*' '(' expression ')'
+		| NAME ':' arraydim
+
+arraydim    :	'[' arrayx ']'
+            	;
+
+arrayx      :	TYPE
+		| '[' arrayx ']'
+		;
+	
+
+elsifgrmr   :
+		| ELSEIF '(' expression ')' '{' statement '}' elsifgrmr
+		| ELSE '{' statement '}'
+		;
+		
+asgngrammer :	ASGNVAR ',' asgngrammer
+            	| ASGNVAR ';'
+            	;
+	
+forgrammer  :	FOR '(' forassign ';' expression ';' forassign ')' '{' statement '}'
+		;
+	
+
+forassign   :	ASGNVAR ',' forassign
+            	| ASGNVAR
+		;	
+
+
+ASGNVAR     :	VARACCESS '=' expression
+		| VARACCESS INC_OP
+		| VARACCESS DEC_OP
+		| VARACCESS ADD_ASSIGN expression
+		| VARACCESS SUB_ASSIGN expression
+		| VARACCESS MUL_ASSIGN expression
+		| VARACCESS DIV_ASSIGN expression
+		| VARACCESS MOD_ASSIGN expression
+		| VARACCESS AND_ASSIGN expression
+		| VARACCESS XOR_ASSIGN expression
+		| VARACCESS OR_ASSIGN expression
+
+whilegrammer    :	WHILE '(' expression ')' '{' statement '}'
+
+dowhilegrameer  :	DO '{' statement '}' WHILE '(' expression ')' ';'
+
+printgrammer    :	PRINT '(' manyexprgm ')' ';'
+manyexprgm      :	expression ',' manyexprgm
+			| expression
+			;
+importgrammer   :	IMPORT manyname ';'
+			;
+
+manyname        :	NAME ','
+			| NAME
+
+
+--------------------------
+Block Structures : 
+--------------------------
+
+switch( condition ):
+    {
+        case x: 
+		// code
+        case y: 
+		// code
+		.
+		.
+		.
+		.
+		.
+		.
+	case default:
+		//code
+    }
+
+
+
+if( condition ){
+	
+	//code
+	.
+	.
+	.
+	.
+        if( condition )
+        {
+            // code
+        }
+        else if( condition ){
+            // code
+
+        }
+	.
+	.
+	.
+	.
+	.
+} else if( condition ) {
+	
+	//code
+        if( condition )
+        {
+		//code
+        }
+}
+	.
+	.
+	.
+	.
+	.
+} else {
+        
+	//code
+}
+
+for( assignment ; expression ; assignment) {
+        //code
+        for( assignment; expression ; assignment)
+        {
+            //code
+        }
+}
+
+
+DO {
+        
+	//code
+   
+   }while( expression );
+
+
+
+func func_name( func_parameter1_name: TYPE , func_parameter2_name: TYPE , ...) -> return_type {
+	// statements
+}
+>>>>>>> dd0a3d6 (Scanner and Parser construction completed.)
